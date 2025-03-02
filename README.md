@@ -3,7 +3,8 @@
 🎓 **Junior Computer Science Major** at the **University of Texas at Arlington**  
 📍 **GPA**: 3.88  
 💡 Passionate about **software development, artificial intelligence, and real-time systems**  
-🔭 Always exploring **innovative solutions to real-world challenges**  
+🔭 **ACM Officer** at **ACM UTA** – contributing to the **development of the [ACM UTA website](https://www.acmuta.com/)**  
+🛒 Currently working on **MavMarketplace**, a student-driven online marketplace  
 
 ---
 
@@ -40,13 +41,27 @@
 
 ---
 
+### 🌐 [ACM UTA Website](https://www.acmuta.com/)
+**Contributed to the development of the official ACM UTA website**, improving the user experience and adding new features for the student community.  
+🔹 **Tech Stack**: React.js, Next.js, Tailwind CSS, Firebase  
+
+---
+
+### 🛒 MavMarketplace (In Development)
+A **student-driven online marketplace** for buying, selling, and trading items within the UTA community.  
+🔹 **Secure authentication & user profiles**  
+🔹 **Product listing & messaging system**  
+🔹 **Tech Stack**: React.js, Node.js, Firebase  
+
+---
+
 ## 💻 Technologies & Skills
 
 ### **Programming Languages**
 🔹 Python | JavaScript | TypeScript | Java | C++ | Kotlin  
 
 ### **Web & Mobile Development**
-🔹 React.js | React Native | Node.js | Express.js  
+🔹 React.js | React Native | Node.js | Express.js | Next.js  
 
 ### **Databases & Cloud**
 🔹 MongoDB | PostgreSQL | Firebase | AWS  
