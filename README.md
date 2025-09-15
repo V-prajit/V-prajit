@@ -3,14 +3,14 @@
 🎓 **Junior Computer Science Major** at the **University of Texas at Arlington**  
 📍 **GPA**: 3.88  
 💡 Passionate about **software development, artificial intelligence, and real-time systems**  
-🔭 **ACM Officer** at **ACM UTA** – contributing to the **development of the [ACM UTA website](https://www.acmuta.com/)**  
+🔭 **Director** at **ACM UTA** – contributing to the **development of the [ACM UTA website](https://www.acmuta.com/)**  
 🛒 Currently working on **MavMarketplace**, a student-driven online marketplace  
 
 ---
 
 ## 🚀 My Projects
 
-### 🌊 [Horizon: Disaster Response & Emergency Management](https://github.com/V-prajit/Horizon)
+### 🌊 [Horizon: Disaster Response & Emergency Management](https://github.com/V-prajit/HackUTA6)
 **A mobile application designed to provide critical support during natural disasters and emergencies.**  
 🔹 **Real-time disaster tracking** using NASA EONET & GDACS  
 🔹 **Emergency service locator** for hospitals, shelters, & blood donation centers  
@@ -21,7 +21,7 @@
 
 ---
 
-### 🖥️ [Server Status Monitor](https://github.com/V-prajit/ServerStatus)
+### 🖥️ [Resource Radar](https://github.com/V-prajit/ResourceRadar)
 **A real-time web-based server monitoring application for tracking CPU & memory usage.**  
 🔹 **Live monitoring** with historical performance visualization  
 🔹 **Secure SSH authentication** for remote access  
