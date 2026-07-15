@@ -1,0 +1,60 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prajit Viswanadha banner">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d10"/>
+      <stop offset="100%" stop-color="#14181d"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a4048" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#5a6472" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#5a6472" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3a4048" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8b04b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#e8b04b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bgGrad)"/>
+
+  <!-- circuit / node-graph motif, right side -->
+  <g stroke="#3d434c" stroke-width="1.4" fill="none" opacity="0.85">
+    <path d="M 840 60 L 940 60 L 980 100 L 1080 100"/>
+    <path d="M 900 140 L 980 140 L 1010 170 L 1130 170"/>
+    <path d="M 860 220 L 950 220 L 990 260 L 1090 260"/>
+    <path d="M 980 100 L 980 140"/>
+    <path d="M 990 260 L 1010 170"/>
+    <path d="M 1080 100 L 1150 60"/>
+    <path d="M 1130 170 L 1200 170"/>
+    <path d="M 1090 260 L 1170 280"/>
+  </g>
+  <g fill="#e8b04b">
+    <circle cx="840" cy="60" r="3.5"/>
+    <circle cx="980" cy="100" r="3.5"/>
+    <circle cx="1080" cy="100" r="3.5"/>
+    <circle cx="900" cy="140" r="3.5"/>
+    <circle cx="1010" cy="170" r="3.5"/>
+    <circle cx="1130" cy="170" r="3.5"/>
+    <circle cx="860" cy="220" r="3.5"/>
+    <circle cx="990" cy="260" r="3.5"/>
+    <circle cx="1090" cy="260" r="3.5"/>
+    <circle cx="1150" cy="60" r="2.5" opacity="0.7"/>
+    <circle cx="1200" cy="170" r="2.5" opacity="0.7"/>
+    <circle cx="1170" cy="280" r="2.5" opacity="0.7"/>
+  </g>
+  <circle cx="1010" cy="170" r="18" fill="url(#nodeGlow)"/>
+
+  <!-- rule line under name -->
+  <rect x="80" y="168" width="620" height="1.5" fill="url(#lineGrad)"/>
+
+  <!-- name -->
+  <text x="80" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#f2efe9" letter-spacing="0.5">Prajit Viswanadha</text>
+
+  <!-- identity line -->
+  <text x="80" y="210" font-family="'Courier New', Consolas, monospace" font-size="21" fill="#b9c0c9">builds AI agents and the trust infrastructure around them</text>
+  <text x="80" y="240" font-family="'Courier New', Consolas, monospace" font-size="21" fill="#b9c0c9">evaluation, observability, failure-to-regression-test loops</text>
+
+  <!-- kicker -->
+  <text x="80" y="60" font-family="'Courier New', Consolas, monospace" font-size="14" fill="#e8b04b" letter-spacing="3">AGENT INFRASTRUCTURE / UT ARLINGTON</text>
+</svg>
