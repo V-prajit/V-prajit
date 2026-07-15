@@ -30,9 +30,6 @@ Most of what I build is some flavor of trust infrastructure for AI systems: eval
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-seven-rho.vercel.app/api?username=V-prajit&show_icons=true&theme=transparent&hide_border=true&text_color=c9d1d9&icon_color=58a6ff&title_color=58a6ff" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-seven-rho.vercel.app/api?username=V-prajit&show_icons=true&theme=transparent&hide_border=true&text_color=24292f&icon_color=0969da&title_color=0969da" />
-    <img src="https://github-readme-stats-seven-rho.vercel.app/api?username=V-prajit&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" width="49%"/>
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=V-prajit&theme=transparent&hide_border=true&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" />
