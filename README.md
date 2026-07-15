@@ -4,9 +4,7 @@
 
 Intern @ Postman (Flows) · CS @ UT Arlington · 10x hackathon winner · [LinkedIn](https://www.linkedin.com/in/prajit-viswanadha/)
 
-> Ten hackathon wins taught me how to ship something impressive in 36 hours. The work I actually care about is what happens on hour 37: making the demo survive a second run.
-
-Most of what I build is trust infrastructure for AI systems: evaluation, observability, and turning caught failures into regression tests instead of repeat incidents.
+I mostly work on the unglamorous side of AI systems: evaluation, observability, and turning caught failures into regression tests instead of repeat incidents. Good at shipping fast, more interested in what keeps working after the demo.
 
 ## Current obsessions
 
