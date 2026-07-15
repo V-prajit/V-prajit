@@ -1,67 +1,39 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Prajit Viswanadha" src="assets/banner.svg" width="100%">
+  <img alt="Prajit Viswanadha: I build AI agents and the trust infrastructure around them" src="assets/banner.svg" width="100%">
 </picture>
 
-<br>
-
-I build AI agents and the trust infrastructure around them: evaluation, observability, and failure-to-regression-test loops. Right now that's an intern on Postman's Flows team. CS at UT Arlington.
-
----
-
-### 🧭 Agent Context Graph
-Write-contract compiler for parallel coding agents. Predicts file collisions before agents run, blocks out-of-bounds writes while they run. Tested across three codebases and three backends, including Devin's hosted API.
-Private repo, ask me for a walkthrough.
-
-### 🐤 [Canary](https://github.com/vikashftw/Canary)
-Dual-oracle QA swarm for bugs that don't throw. A browser agent declares expectations, Sentry reports crashes, the two get matched by trace ID, and the mismatch becomes a regression test. Built with two friends at the UC Berkeley AI Hackathon.
-
-### 📡 [relay](https://github.com/V-prajit/relay)
-A Slack `/relay` command becomes a drafted, codebase-aware GitHub issue: acceptance criteria, impacted files. Instant ack inside Slack's 3-second window, the real work happens in the background.
-
-### 🎓 [mavgrades](https://www.mavgrades.com)
-ACM UTA's grade-distribution search for UT Arlington. Students use it every registration season. ([repo](https://github.com/acmuta/mavgrades))
-
-### 🛰️ [Polaris](https://github.com/V-prajit/Polaris)
-Parking-capacity estimates from satellite imagery. Winner, GrowthFactor Challenge at Hacklytics 2026.
-
-### 📈 [ResourceRadar](https://github.com/V-prajit/ResourceRadar)
-Real-time server monitoring: SSH collectors feed Kafka, Kafka feeds InfluxDB, results stream live over WebSockets. One `docker compose up`.
-
----
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,py,react,docker,kafka" alt="stack" />
+  Intern @ Postman (Flows) · CS @ UT Arlington · 10x hackathon winner · <a href="https://www.linkedin.com/in/prajit-viswanadha/">LinkedIn</a>
 </p>
 
 > Ten hackathon wins taught me how to ship something impressive in 36 hours. The work I actually care about is what happens on hour 37: making the demo survive a second run.
 
----
+Most of what I build is trust infrastructure for AI systems: evaluation, observability, and turning caught failures into regression tests instead of repeat incidents.
 
-## What I'm building
+## Current obsessions
 
-| | Project |
-|---|---|
-| 🕸️ | **Agent Context Graph**: write-contract compiler for parallel coding agents. Predicts file collisions before agents run, blocks out-of-bounds writes while they run. Tested across three codebases and three backends, including Devin's hosted API. Private repo, ask me for a walkthrough. |
-| 🐤 | **[Canary](https://github.com/vikashftw/Canary)**: dual-oracle QA swarm for bugs that don't throw. A browser agent declares what it expects, Sentry reports what actually crashed, matched by trace ID, then it writes the regression test. Built with two friends at the UC Berkeley AI Hackathon. |
-| 📨 | **[relay](https://github.com/V-prajit/relay)**: a Slack `/relay` command becomes a drafted, codebase-aware GitHub issue with acceptance criteria and impacted files. Instant ack inside Slack's 3-second window, the real work happens in the background. |
-| 🎓 | **[mavgrades](https://www.mavgrades.com)**: ACM UTA's grade-distribution search for UT Arlington. Students lean on it every registration season. |
-| 🛰️ | **[Polaris](https://github.com/V-prajit/Polaris)**: parking-capacity estimates from satellite imagery. Winner, GrowthFactor Challenge at Hacklytics 2026. |
-| 📡 | **[ResourceRadar](https://github.com/V-prajit/ResourceRadar)**: real-time server monitoring: SSH collectors into Kafka into InfluxDB, live over WebSockets, one `docker compose up`. |
+- **Agent Context Graph** · a write-contract compiler for parallel coding agents. Predicts file collisions before agents run, blocks out-of-bounds writes while they run. Tested across three codebases and three backends, including Devin's hosted API. Private while I decide how to open it up; ask me for a walkthrough, I will happily talk your ear off.
+- **[Canary](https://github.com/vikashftw/Canary)** · a dual-oracle QA swarm for the bugs that don't throw. A browser agent declares what it expects, Sentry reports what actually broke, trace IDs connect the two, and every confirmed bug becomes a regression test. A fixed bug without a test is just a bug on vacation. Built with two friends at the UC Berkeley AI Hackathon.
+- **[relay](https://github.com/V-prajit/relay)** · type `/relay "fix mobile login"` in Slack, get back a drafted GitHub issue that has actually read your codebase. Slack gives you three seconds to respond; the trick is acknowledging instantly and thinking in the background.
 
-## By the numbers
+## Shipped and still standing
 
-<p align="center">
-  <picture>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=V-prajit&theme=transparent&hide_border=true&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=V-prajit&theme=transparent&hide_border=true&stroke=0969da&ring=0969da&fire=0969da&currStreakLabel=24292f&sideLabels=24292f&currStreakNum=24292f&sideNums=24292f&dates=57606a" />
-    <img src="https://streak-stats.demolab.com?user=V-prajit&theme=transparent&hide_border=true" alt="GitHub streak" width="49%"/>
-  </picture>
-</p>
+- **[mavgrades.com](https://www.mavgrades.com)** · ACM UTA's grade-distribution search for UT Arlington. Students lean on it every registration season to find out which professor actually hands out the A's.
+- **[Polaris](https://github.com/V-prajit/Polaris)** · parking-capacity estimates from satellite imagery. Winner, GrowthFactor Challenge at Hacklytics 2026.
+- **[ResourceRadar](https://github.com/V-prajit/ResourceRadar)** · real-time server monitoring: SSH collectors into Kafka into InfluxDB, streamed live over WebSockets. One `docker compose up`.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/prajit-viswanadha/">LinkedIn</a> · or open an issue on anything above
-</p>
+## Fresh off the push
+
+<!-- recent starts -->
+- [TermTyper](https://github.com/V-prajit/TermTyper) · Terminal typing-speed game in C++ with ncurses: timed word test with colored correct/incorrect feedback. · pushed 2026-07-15
+- [SpotiClean](https://github.com/V-prajit/SpotiClean) · Small Flask app using spotipy to auth with Spotify and list a user's playlists. Early prototype. · pushed 2026-07-15
+- [Finance-Summary](https://github.com/V-prajit/Finance-Summary) · Self-hosted personal finance tracker: Django + React, rule-based transaction tagging from uploaded statements. Experimental/paused. · pushed 2026-07-15
+- [postman-api-toolkit](https://github.com/V-prajit/postman-api-toolkit) · Express.js test server (health, echo, user CRUD) for exercising Postman collections; built for a Postman + Snowflake hackathon · pushed 2026-07-15
+- [HackUTA6](https://github.com/V-prajit/HackUTA6) · Horizon: disaster tracking + emergency services mobile app (React Native/Expo + Node/Express + MongoDB), built at HackUTA 6 · pushed 2026-07-15
+
+<sub>Last self-update: 2026-07-15 20:53 UTC</sub>
+<!-- recent ends -->
+
+<sub>This section rebuilds itself on a schedule via <a href=".github/workflows/build-readme.yml">a tiny GitHub Action</a>. No third-party image services anywhere on this page, so the worst failure mode is stale, never broken. That is the whole philosophy.</sub>
