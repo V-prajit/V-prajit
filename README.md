@@ -9,7 +9,7 @@ prajit@github:~$ neofetch --minimal
                  EDU    CS @ UT Arlington
                  WINS   10x hackathon winner
                         Winner, GrowthFactor Challenge @ Hacklytics 2026 (Polaris)
-                 STACK  TypeScript, Python, Go, Docker, Kafka, WebSockets
+                 STACK  TypeScript, Python, React, Docker, Kafka, WebSockets
                  SHELL  ships in 36 hours, stays up on hour 37
 ```
 
