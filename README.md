@@ -1,66 +1,42 @@
-```
-prajit@github:~$ neofetch --minimal
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Prajit Viswanadha" src="assets/banner.svg" width="100%">
+</picture>
 
-  .------.       prajit@github
-  |  ()  |       -------------
-  |------|       ROLE   builds AI agents + the trust infra around them
-  \______/              (evaluation, observability, failure-to-regression-test loops)
-                 NOW    Intern, Postman (Flows team)
-                 EDU    CS @ UT Arlington
-                 WINS   10x hackathon winner
-                        Winner, GrowthFactor Challenge @ Hacklytics 2026 (Polaris)
-                 STACK  TypeScript, Python, React, Docker, Kafka, WebSockets
-                 SHELL  ships in 36 hours, stays up on hour 37
-```
+<br>
 
-```
-prajit@github:~$ cat obsessions.md
-```
-> Ten hackathon wins taught me how to ship something impressive in 36 hours.
-> The work I actually care about is what happens on hour 37: making the demo
-> survive a second run.
+I build AI agents and the trust infrastructure around them: evaluation, observability, and failure-to-regression-test loops. Right now that's an intern on Postman's Flows team. CS at UT Arlington.
 
-```
-prajit@github:~$ ls --projects -la
-```
-```
-drwx  agent-context-graph/   write-contract compiler for parallel coding agents
-                              predicts file collisions before agents run, blocks
-                              out-of-bounds writes while they run. tested across
-                              three codebases, three backends incl. Devin's hosted
-                              API. private repo -- ask me for a walkthrough.
+---
 
-drwx  canary/                dual-oracle QA swarm for bugs that don't throw:
-                              browser agent declares expectations, Sentry reports
-                              crashes, matched by trace ID -> generates regression
-                              tests. built with two friends @ UC Berkeley AI Hackathon
-                              -> github.com/vikashftw/Canary
+### 🧭 Agent Context Graph
+Write-contract compiler for parallel coding agents. Predicts file collisions before agents run, blocks out-of-bounds writes while they run. Tested across three codebases and three backends, including Devin's hosted API.
+Private repo, ask me for a walkthrough.
 
-drwx  relay/                 Slack /relay becomes a drafted, codebase-aware GitHub
-                              issue (acceptance criteria, impacted files). instant
-                              ack inside Slack's 3s window, real work in background
-                              -> github.com/V-prajit/relay
+### 🐤 [Canary](https://github.com/vikashftw/Canary)
+Dual-oracle QA swarm for bugs that don't throw. A browser agent declares expectations, Sentry reports crashes, the two get matched by trace ID, and the mismatch becomes a regression test. Built with two friends at the UC Berkeley AI Hackathon.
 
-drwx  mavgrades/             ACM UTA's grade-distribution search, live every
-                              registration season -> mavgrades.com
+### 📡 [relay](https://github.com/V-prajit/relay)
+A Slack `/relay` command becomes a drafted, codebase-aware GitHub issue: acceptance criteria, impacted files. Instant ack inside Slack's 3-second window, the real work happens in the background.
 
-drwx  polaris/                parking-capacity estimates from satellite imagery
-                              winner, GrowthFactor Challenge @ Hacklytics 2026
-                              -> github.com/V-prajit/Polaris
+### 🎓 [mavgrades](https://www.mavgrades.com)
+ACM UTA's grade-distribution search for UT Arlington. Students use it every registration season. ([repo](https://github.com/acmuta/mavgrades))
 
-drwx  resourceradar/          SSH collectors -> Kafka -> InfluxDB, live over
-                              WebSockets, one `docker compose up`
-                              -> github.com/V-prajit/ResourceRadar
-```
+### 🛰️ [Polaris](https://github.com/V-prajit/Polaris)
+Parking-capacity estimates from satellite imagery. Winner, GrowthFactor Challenge at Hacklytics 2026.
 
-```
-prajit@github:~$ whoami --contact
-```
-```
-# reach me on LinkedIn, not email
-linkedin.com/in/prajit-viswanadha
-```
+### 📈 [ResourceRadar](https://github.com/V-prajit/ResourceRadar)
+Real-time server monitoring: SSH collectors feed Kafka, Kafka feeds InfluxDB, results stream live over WebSockets. One `docker compose up`.
 
-```
-prajit@github:~$ █
-```
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,py,react,docker,kafka" alt="stack" />
+</p>
+
+> Ten hackathon wins taught me how to ship something impressive in 36 hours. The work I actually care about is what happens on hour 37: making the demo survive a second run.
+
+---
+
+<p align="center"><a href="https://www.linkedin.com/in/prajit-viswanadha/">LinkedIn</a></p>
