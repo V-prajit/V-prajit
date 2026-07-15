@@ -1,12 +1,8 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Prajit Viswanadha: I build AI agents and the trust infrastructure around them" src="assets/banner.svg" width="100%">
-</picture>
+# Hey, I'm Prajit
 
-<p align="center">
-  Intern @ Postman (Flows) · CS @ UT Arlington · 10x hackathon winner · <a href="https://www.linkedin.com/in/prajit-viswanadha/">LinkedIn</a>
-</p>
+**I build AI agents and the trust infrastructure around them.**
+
+Intern @ Postman (Flows) · CS @ UT Arlington · 10x hackathon winner · [LinkedIn](https://www.linkedin.com/in/prajit-viswanadha/)
 
 > Ten hackathon wins taught me how to ship something impressive in 36 hours. The work I actually care about is what happens on hour 37: making the demo survive a second run.
 
