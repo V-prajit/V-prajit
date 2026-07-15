@@ -26,7 +26,7 @@ An ML platform that turns satellite imagery into a parking-capacity estimate: dr
 **Winner, GrowthFactor Challenge at Hacklytics 2026 (Georgia Tech).** [Devpost](https://devpost.com/software/parasite-2dri43)
 
 ### [relay](https://github.com/V-prajit/relay)
-Turns a Slack slash command into a codebase-aware GitHub issue: `/relay "fix mobile login"` searches the repo and drafts a GitHub-ready issue with acceptance criteria and an impacted-files list. Built on Postman Flows with an async fork pattern that returns an immediate 202 inside Slack's 3-second webhook window, then runs search-and-generate in the background, backed by a small ripgrep API service for fast codebase search.
+Turns a Slack slash command into a codebase-aware GitHub issue: `/relay "fix mobile login"` searches the repo and drafts a GitHub-ready issue with acceptance criteria and an impacted-files list. Built on Postman Flows: an immediate "Processing..." acknowledgment lands inside Slack's 3-second webhook window while search-and-generate runs in the background, backed by a small ripgrep API service for fast codebase search.
 
 ### [mavgrades](https://github.com/acmuta/mavgrades) (live at [mavgrades.com](https://www.mavgrades.com))
 A grade-distribution search tool for UT Arlington courses and professors, shipped by ACM UTA and used by real students to pick classes and professors before they register. Serves 15+ semesters of grade data (Fall 2020 onward) from a ~21MB SQLite file bundled into the deploy artifact and queried directly by Next.js route handlers behind an in-memory LRU cache, with no external database service and no user write path.
