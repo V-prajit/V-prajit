@@ -4,7 +4,7 @@
 
 Intern @ Postman (Flows) · CS @ UT Arlington · 10x hackathon winner · [LinkedIn](https://www.linkedin.com/in/prajit-viswanadha/)
 
-I mostly work on the unglamorous side of AI systems: evaluation, observability, and turning caught failures into regression tests instead of repeat incidents. Good at shipping fast, more interested in what keeps working after the demo.
+I mostly work on the unglamorous side of AI systems: evaluation, observability, and turning caught failures into regression tests instead of repeat incidents. I ship fast and build things that hold up once the demo is over.
 
 ## Current obsessions
 
