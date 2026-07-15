@@ -1,25 +1,66 @@
-# Hey, I'm Prajit
+```
+prajit@github:~$ neofetch --minimal
 
-I build AI agents, and the unglamorous machinery that stops them from lying to you.
+  .------.       prajit@github
+  |  ()  |       -------------
+  |------|       ROLE   builds AI agents + the trust infra around them
+  \______/              (evaluation, observability, failure-to-regression-test loops)
+                 NOW    Intern, Postman (Flows team)
+                 EDU    CS @ UT Arlington
+                 WINS   10x hackathon winner
+                        Winner, GrowthFactor Challenge @ Hacklytics 2026 (Polaris)
+                 STACK  TypeScript, Python, Go, Docker, Kafka, WebSockets
+                 SHELL  ships in 36 hours, stays up on hour 37
+```
 
-Ten hackathon wins taught me how to ship something impressive in 36 hours. The work I actually care about is what happens on hour 37: making the demo survive a second run. So most of my projects are some flavor of trust infrastructure for AI systems: evaluation, observability, catching failures and turning them into regression tests. That instinct currently pays rent on the Flows team at Postman. CS at UT Arlington.
+```
+prajit@github:~$ cat obsessions.md
+```
+> Ten hackathon wins taught me how to ship something impressive in 36 hours.
+> The work I actually care about is what happens on hour 37: making the demo
+> survive a second run.
 
-## Current obsessions
+```
+prajit@github:~$ ls --projects -la
+```
+```
+drwx  agent-context-graph/   write-contract compiler for parallel coding agents
+                              predicts file collisions before agents run, blocks
+                              out-of-bounds writes while they run. tested across
+                              three codebases, three backends incl. Devin's hosted
+                              API. private repo -- ask me for a walkthrough.
 
-**Agent Context Graph** · Let several coding agents loose on one repo and they trample each other's files. ACG is a write-contract compiler that predicts the collisions before the agents run and blocks out-of-bounds writes while they run. Tested across three codebases and three backends, including Devin's hosted API. Private while I decide how to open it up; ask for a walkthrough, I will happily talk your ear off.
+drwx  canary/                dual-oracle QA swarm for bugs that don't throw:
+                              browser agent declares expectations, Sentry reports
+                              crashes, matched by trace ID -> generates regression
+                              tests. built with two friends @ UC Berkeley AI Hackathon
+                              -> github.com/vikashftw/Canary
 
-**[Canary](https://github.com/vikashftw/Canary)** · A QA swarm for the bugs that don't throw. A browser agent wanders your app like a confused user and declares what it expects; Sentry reports what actually broke; matching the two by trace ID catches the "cart total is silently wrong" class of bug that no stack trace will ever hand you. Then it writes the regression test, because a fixed bug without a test is just a bug on vacation. Built with two friends at the UC Berkeley AI Hackathon.
+drwx  relay/                 Slack /relay becomes a drafted, codebase-aware GitHub
+                              issue (acceptance criteria, impacted files). instant
+                              ack inside Slack's 3s window, real work in background
+                              -> github.com/V-prajit/relay
 
-**[relay](https://github.com/V-prajit/relay)** · Type `/relay "fix mobile login"` in Slack, get back a drafted GitHub issue that has actually read your codebase: acceptance criteria, impacted files, the works. Slack gives you three seconds to respond; the trick is acknowledging instantly and doing the real thinking in the background.
+drwx  mavgrades/             ACM UTA's grade-distribution search, live every
+                              registration season -> mavgrades.com
 
-## Shipped and still standing
+drwx  polaris/                parking-capacity estimates from satellite imagery
+                              winner, GrowthFactor Challenge @ Hacklytics 2026
+                              -> github.com/V-prajit/Polaris
 
-**[mavgrades.com](https://www.mavgrades.com)** · ACM UTA's grade-distribution search for every UT Arlington course. Every registration season, students use it to find out which professor actually hands out the A's.
+drwx  resourceradar/          SSH collectors -> Kafka -> InfluxDB, live over
+                              WebSockets, one `docker compose up`
+                              -> github.com/V-prajit/ResourceRadar
+```
 
-**[Polaris](https://github.com/V-prajit/Polaris)** · Point at a city block, get a parking-capacity estimate from satellite imagery. Won the GrowthFactor Challenge at Hacklytics 2026.
+```
+prajit@github:~$ whoami --contact
+```
+```
+# reach me on LinkedIn, not email
+linkedin.com/in/prajit-viswanadha
+```
 
-**[ResourceRadar](https://github.com/V-prajit/ResourceRadar)** · Real-time server monitoring done the systems-plumbing way: SSH collectors into Kafka into InfluxDB, pushed live over WebSockets. Zero cloud bills, one `docker compose up`.
-
-## Find me
-
-[LinkedIn](https://www.linkedin.com/in/prajit-viswanadha/) · or open an issue on anything above
+```
+prajit@github:~$ █
+```
