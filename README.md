@@ -13,7 +13,7 @@ My recent work is about making multi-agent and AI-driven pipelines trustworthy i
 - **Regression generation**: closing the loop from a caught failure to a fix diff to a test that stops it recurring
 - **Developer infrastructure**: MCP servers, CLI surfaces, and CI wiring around the above so they're usable outside a demo environment
 
-The flagship project here is **Agent Context Graph (ACG)**, a write-contract compiler for multi-agent code generation. Given a task list and a repo, it scans the codebase, predicts which tasks will contend on shared files, sequences the contending ones deterministically, and validates every proposed write against a per-task contract in real time. It's been evaluated across three codebases (a Java Spring service, a TypeScript T3 stack, a NestJS backend) and three execution backends, including a live integration with Devin's hosted agent API, where logged runs landed 6/6 PRs in-scope with zero out-of-bounds writes recorded. It's currently private while I decide on the right way to open it up, ask if you want a walkthrough.
+The flagship project here is **Agent Context Graph (ACG)**, a write-contract compiler for multi-agent code generation. Given a task list and a repo, it scans the codebase, predicts which tasks will contend on shared files, sequences the contending ones deterministically, and validates every proposed write against a per-task contract in real time. It's been evaluated across three codebases (a Java Spring service, a TypeScript T3 stack, a NestJS backend) and three execution backends, including a live integration with Devin's hosted agent API, where every proposed write was validated against its task contract before landing. It's currently private while I decide on the right way to open it up, ask if you want a walkthrough.
 
 ## Selected work
 
@@ -26,7 +26,7 @@ An ML platform that turns satellite imagery into a parking-capacity estimate: dr
 **Winner, GrowthFactor Challenge at Hacklytics 2026 (Georgia Tech).** [Devpost](https://devpost.com/software/parasite-2dri43)
 
 ### [relay](https://github.com/V-prajit/relay)
-Turns a Slack slash command into a codebase-aware GitHub issue: `/relay "fix mobile login"` searches the repo, drafts acceptance criteria and an impacted-files list, and opens the issue. Built on Postman Flows with an async fork pattern that returns an immediate 202 inside Slack's 3-second webhook window, then runs search-and-generate in the background, backed by a small ripgrep API service for fast codebase search.
+Turns a Slack slash command into a codebase-aware GitHub issue: `/relay "fix mobile login"` searches the repo and drafts a GitHub-ready issue with acceptance criteria and an impacted-files list. Built on Postman Flows with an async fork pattern that returns an immediate 202 inside Slack's 3-second webhook window, then runs search-and-generate in the background, backed by a small ripgrep API service for fast codebase search.
 
 ### [mavgrades](https://github.com/acmuta/mavgrades) (live at [mavgrades.com](https://www.mavgrades.com))
 A grade-distribution search tool for UT Arlington courses and professors, shipped by ACM UTA and used by real students to pick classes and professors before they register. Serves 15+ semesters of grade data (Fall 2020 onward) from a ~21MB SQLite file bundled into the deploy artifact and queried directly by Next.js route handlers behind an in-memory LRU cache, with no external database service and no user write path.
