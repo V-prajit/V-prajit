@@ -27,7 +27,7 @@ I mostly work on the unglamorous side of AI systems: evaluation, observability, 
 - [postman-api-toolkit](https://github.com/V-prajit/postman-api-toolkit) · Express.js test server (health, echo, user CRUD) for exercising Postman collections; built for a Postman + Snowflake hackathon · pushed 2026-07-15
 - [HackUTA6](https://github.com/V-prajit/HackUTA6) · Horizon: disaster tracking + emergency services mobile app (React Native/Expo + Node/Express + MongoDB), built at HackUTA 6 · pushed 2026-07-15
 
-<sub>Last self-update: 2026-07-16 10:21 UTC</sub>
+<sub>Last self-update: 2026-07-17 10:11 UTC</sub>
 <!-- recent ends -->
 
 <sub>This section rebuilds itself on a schedule via <a href=".github/workflows/build-readme.yml">a tiny GitHub Action</a>. No third-party image services anywhere on this page, so the worst failure mode is stale, never broken. That is the whole philosophy.</sub>
