@@ -21,13 +21,13 @@ I mostly work on the unglamorous side of AI systems: evaluation, observability, 
 ## Fresh off the push
 
 <!-- recent starts -->
+- [assistant-calendar](https://github.com/V-prajit/assistant-calendar) · Home and privacy pages for a personal Google Calendar OAuth app · pushed 2026-09-28
 - [TermTyper](https://github.com/V-prajit/TermTyper) · Terminal typing-speed game in C++ with ncurses: timed word test with colored correct/incorrect feedback. · pushed 2026-07-15
 - [SpotiClean](https://github.com/V-prajit/SpotiClean) · Small Flask app using spotipy to auth with Spotify and list a user's playlists. Early prototype. · pushed 2026-07-15
 - [Finance-Summary](https://github.com/V-prajit/Finance-Summary) · Self-hosted personal finance tracker: Django + React, rule-based transaction tagging from uploaded statements. Experimental/paused. · pushed 2026-07-15
 - [postman-api-toolkit](https://github.com/V-prajit/postman-api-toolkit) · Express.js test server (health, echo, user CRUD) for exercising Postman collections; built for a Postman + Snowflake hackathon · pushed 2026-07-15
-- [HackUTA6](https://github.com/V-prajit/HackUTA6) · Horizon: disaster tracking + emergency services mobile app (React Native/Expo + Node/Express + MongoDB), built at HackUTA 6 · pushed 2026-07-15
 
-<sub>Last self-update: 2026-09-28 16:44 UTC</sub>
+<sub>Last self-update: 2026-09-29 14:50 UTC</sub>
 <!-- recent ends -->
 
 <sub>This section rebuilds itself on a schedule via <a href=".github/workflows/build-readme.yml">a tiny GitHub Action</a>. No third-party image services anywhere on this page, so the worst failure mode is stale, never broken. That is the whole philosophy.</sub>
